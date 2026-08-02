@@ -1,0 +1,16 @@
+=== Val AUC summary ===
+Margin  Val AUC (point)  Val AUC (boot mean)  Val AUC (boot SD)  Val AUC 95% CI low  Val AUC 95% CI high  n_all_feats  n_after_PCC  n_after_RFIFS  n_after_LASSO Val AUC ± SD (bootstrap)
+   2mm         0.787566             0.787937           0.044345            0.696063             0.869937         2446          496              5              4            0.788 ± 0.044
+   3mm         0.805186             0.805775           0.043954            0.717172             0.889298         2446          492             17              7            0.805 ± 0.044
+   4mm         0.833777             0.834339           0.042418            0.746360             0.912042         2446          508             23             15            0.834 ± 0.042
+
+=== 4mm vs 2mm (Val) ===
+AUC(4mm)=0.8338 | AUC(2mm)=0.7876 | ΔAUC=+0.0462
+DeLong p-value = 0.1057
+Bootstrap ΔAUC mean = +0.0464 | 95% CI [-0.0093, +0.1040] | p = 0.1092
+
+=== 4mm vs 3mm (Val) ===
+AUC(4mm)=0.8338 | AUC(3mm)=0.8052 | ΔAUC=+0.0286
+DeLong p-value = 0.1699
+Bootstrap ΔAUC mean = +0.0286 | 95% CI [-0.0130, +0.0717] | p = 0.1728
+
